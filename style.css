@@ -1,0 +1,204 @@
+/* CSS styles for header, navigation, and content section go here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/graffiti.jpg); /* Replace 'graffiti.jpg' with your graffiti-style image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.social-media {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.social-media a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.social-media a i.fab.fa-soundcloud {
+    background-color: #ff8800; /* SoundCloud's brand color */
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.social-media a i.fab.fa-soundcloud:hover {
+    background-color: #ff7700; /* Darker color on hover */
+}
+
+
+header {
+      background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+    
+}
+
+}
+
+nav {
+    background-color: transparent;
+    padding: 10px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    font-size: 20px
+  
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/* Style the artist elements in the navigation */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 5px;
+  
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the dropdown list on hover */
+
+select,
+nav ul li:last-child a {
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the dropdown list and upload link on hover */
+select:hover,
+nav ul li:last-child a:hover {
+    border-color: #007BFF;
+}
+select:hover {
+    border-color: #007BFF;
+}
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.music-catalog {
+  /* Transparent white background */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.music-catalog-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+   color: #fff; /* Text color */ 
+}
+
+.music-catalog-content {
+    font-size: 18px;
+   color: #fff; /* Text color */ 
+}
+.song-small  {
+    m-1 ms-4 col-md-6 row: align-items-center;
+	  font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff; /* Text color */ 
+}  		
+.post {
+  padding: 20px;
+  margin-bottom: 20px;
+   color: #fff; /* Text color */ 
+}
+.post-title{
+  padding: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
+   color: #fff; /* Text color */ 
+}
+.post-content {
+    padding: 20px;
+    font-size: 18px;
+     color: #fff; /* Text color */ 
+     margin-bottom:10px;
+}
+
+.video-container {
+   position: relative;
+   padding-bottom: 80%; /* Adjust the aspect ratio and size as needed */
+    height: 0%;
+    overflow: hidden;
+    max-width: 80%; /* Adjust the video container width */
+
+  
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+}
+ .footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    color: #fff; /* Text color */ 
+    text-align: center;
+    padding: 1rem 0;
+}
